@@ -2,7 +2,8 @@
 
 #### laravel-admin v2.0版本，基于laravel优雅风格的特性，以及服务设计模式，已重构，考虑到laravel的优雅灵活性，去除了1.0版本中的代码生成功能。
 
-[laravel-admin](https://github.com/yuxingfei/laravel-admin) 是基于laravel 7.*的版本和AdminLTE前端样式框架开发的一套通用后台管理系统[laravel-admin](https://github.com/yuxingfei/laravel-admin)。里面吸取了很多开源项目的精髓,laravel 7、AdminLte、mews/captcha等,开箱即用，非常灵活，该版本是v2.0版本，后面根据大家的需求，结合laravel 7的特性，推出更有laravel 7特色的版本。欢迎各位同仁使用后，提出宝贵的意见。欢迎加入laravel-admin通用后台系统技术交流QQ群: **682096728**
+git clone https://github.com/moho110/laravel-admin-2.0
+
 
 ## laravel-admin安装
 
@@ -13,11 +14,11 @@ php7.4版本
 
 #### clone 项目到本地
 ```
-GitHub:   git clone git@github.com:yuxingfei/laravel-admin.git
+GitHub:   git clone git@github.com:moho110/laravel-admin.git
 ```
 或
 ```
-码云:   git clone git@gitee.com:yuxingfei/laravel-admin.git
+码云:   git clone git@gitee.com:moho110/laravel-admin.git
 ```
 
 #### 安装项目依赖
@@ -59,28 +60,3 @@ php artisan storage:link
 
 #### 访问后台
 访问`/admin`，默认超级管理员的账号密码都为`super_admin`。
-
-
-## 补充
-本项目采用大量的开源代码，包括Laravel7，AdminLTE、mews/captcha等。
-值得注意的是这是Laravel 版本的 通用后台管理系统[laravel-admin](https://github.com/yuxingfei/laravel-admin),如果大家需要thinkphp版本的后台管理系统，可以使用[BearAdmin](https://github.com/yupoxiong/BearAdmin)。
-
-交流QQ群：[682096728](https://jq.qq.com/?_wv=1027&k=8SMveoJ0)
-
-![Image](https://raw.githubusercontent.com/yuxingfei/images/master/qq_share_code.png)
-
-#### [laravel-admin](https://github.com/yuxingfei/laravel-admin)效果图
-
-![Image](https://raw.githubusercontent.com/yuxingfei/images/master/home.png)
-
-![Image](https://raw.githubusercontent.com/yuxingfei/images/master/skin_setting.png)
-
-![Image](https://raw.githubusercontent.com/yuxingfei/images/master/user.png)
-
-![Image](https://raw.githubusercontent.com/yuxingfei/images/master/menu.png)
-
-![Image](https://raw.githubusercontent.com/yuxingfei/images/master/role.png)
-
-![Image](https://raw.githubusercontent.com/yuxingfei/images/master/setting.png)
-
-![Image](https://raw.githubusercontent.com/yuxingfei/images/master/database.png)
