@@ -14,11 +14,11 @@ php7.4版本
 
 #### clone 项目到本地
 ```
-GitHub:   git clone git@github.com:moho110/laravel-admin.git
+GitHub:   git clone git@github.com:moho110/laravel-admin-2.0
 ```
 或
 ```
-码云:   git clone git@gitee.com:moho110/laravel-admin.git
+码云:   git clone git@gitee.com:moho110/laravel-admin-2.0
 ```
 
 #### 安装项目依赖
